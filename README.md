@@ -9,3 +9,34 @@ This program is my attempt to answer a question posed recently by my friend Cody
 >So, let's take 30 characters (alphabet and basic punctuation), and arrange it on a circle. That's 30! different combinations to test against a database of, say, a thousand words. That looks to me like a very big number indeed, but I really don't know. How long would that take, computationally? Would this be a simple program to actually code, just one that would take a while to run?
 
 I've taken a few liberties, most notably in that I used a 27 character alphabet (letters plus a space character).  It would be trivial to incorporate Cody's proposed 30 character alphabet into this program (just change line 15) but the problem is finding a reasonable dataset to test against.  As it stands, I'm using the [1000 most common english words found on splasho.com](http://splasho.com/upgoer5/phpspellcheck/dictionaries/1000.dicin).
+
+
+###Top Performers
+
+Here are a few of the alphabets that performed the best.  The number on the right is the overall number of turns required to spell out the 1000 most common english words.  The lower the score, the better the alphabet performed.
+
+|Alphabet|Number of turns|
+|-----|------|
+|yjlvankgpocuqmxiwfhszbrte d|34460|
+|ukxpzfwse ardtlcnomqyibhjvg|34565|
+|otvpusr dmehnafliwcxzyqbjgk|35091|
+|ctlykzmqxpjgivwbfhordun esa|33262|
+|dshaoicjwrpfgxuvmbklqzyn et|35242|
+|umwcgyzqfjvixkdtl rheospnba|34872|
+|xhlybiqcwvuzafopmdrest ngkj|34827|
+|eqrydbnxkvouzwmjpsihfagltc |34698|
+|qd nliypbvzjsgwfkxohcmuater|35820|
+|wuvserh tnfipomlaqjkxzybdcg|34372|
+|zqaynirgptes ukdmhbcfxvjolw|35011|
+|whxkujqbmodplaingtrv efsycz|34465|
+|hfzvxgqwdjpuimnlbt resocaky|33695|
+|tbye vrdalfhognwiuzmpjkxcsq|34697|
+|dliqjxgybvznkhwst ecmroaupf|33097|
+|cxvuqizsfgpkydhtae lrbjwmon|34578|
+|iduzhpgvxkbqwroys ecnltamfj|34921|
+|ocmwyxbjfzugvqindhlert pksa|33037|
+|tga ielnrydfqxcomvkuzwhpjsb|33936|
+|t elpnjmzkxvugobqicfwsadhry|34405|
+|fgydraebk cpsntuwmhxjvoziql|34684|
+|pklvbfjzgdwouqiscmry thaenx|34755|
+|ucvrjwfzgkixhqetn dsapyblmo|34668|
